@@ -1,17 +1,22 @@
 import React from 'react';
 
 const Footer = () => {
-  const getFullYear = new Date().getFullYear();
   return (
-    <footer >
+    <footer>
       <div className='section-center'>
-        <ul className='footer-items'>
-          <li>Home</li>
-          <li>Featured</li>
-          <li>FAQs</li>
-          <li>About</li>
-        </ul>
-        <p className='footer-text'>@{getFullYear} Company.Inc</p>
+        <div className='footer-header'>
+          <p>CopyRight &copy; 2023 Apple.Inc.All rights reserved.</p>
+          <p>United States</p>
+        </div>
+        <div className='footer-links'>
+          <ul>
+            <li>Privacy policy</li>
+            <li>Terms of use</li>
+            <li>sales and Refunds</li>
+            <li>Legal</li>
+            <li>Site Map</li>
+          </ul>
+        </div>
       </div>
     </footer>
   );
